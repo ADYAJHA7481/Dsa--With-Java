@@ -11,6 +11,7 @@ public class ReverseOfNum {
         //     num = num / 10;      
         // }
         // System.out.println();
+        
 
         int reverse = 0;
         while (num > 0) {
@@ -19,6 +20,8 @@ public class ReverseOfNum {
             num = num / 10;      
         }
         System.out.println(reverse);
+
+        sc.close();
 
     }
 }
